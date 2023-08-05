@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header of the e commerce website -->
+    <nav
+      class="E-commerce-navbar px-5 d-flex flex-column flex-md-row align-items-center justify-content-between"
+    >
+      <div class="logo">
+        <img src="assets/logo.png" />
+        <h5 class="fw-bolder">Codevo</h5>
+      </div>
+      <div class="mid-bar d-flex flex-md-row flex-column">
+        <ul class="navlist">
+          <li style="font-weight: 700; color: #ff5151">Home</li>
+          <li>Shop</li>
+          <li>Pages</li>
+          <li>About Us</li>
+          <li>Lookups</li>
+        </ul>
+      </div>
+
+      <div class="right-nav">
+        <img src="assets/Icon.png" alt="search" width="45px" />
+        <img src="assets/User.png" alt="usericon" width="50px" />
+        <img src="assets/Notification.png" alt="Notification" width="50px" />
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero-section">
+      <div class="hero-text">
+        <p style="margin-bottom: 0.5rem; margin-left: 10px">
+          Limited Time Only For Winter
+        </p>
+        <img src="assets/fashion.png" />
+        <!-- <h1>Fashion</h1> -->
+        <h5 style="margin-top: 10px; margin-left: 10px">
+          LOOK YOUR BEXT ON YOUR BEST DAY
+        </h5>
+      </div>
+      <div class="image">
+        <img src="assets/Poster Picture.png" width="400px" />
+      </div>
+
+      <div class="explore-button">
+        <button>Explore Now</button>
+      </div>
+    </div>
+
+    <!-- collection section -->
+    <div class="collection">
+      <div class="headandbutton">
+        <div
+          class="heading-col d-flex align-items-center justify-content-around"
+        >
+          <img src="assets/jacket.png" width="200px" />
+          <h2 style="font-weight: 700; margin-right: 300px">
+            Our Top Collections
+          </h2>
+        </div>
+
+        <div class="collection-buttons d-flex justify-content-center">
+          <button>Jewellery</button>
+          <button class="acc">Accessory</button>
+          <button>Desses</button>
+          <button>Footware</button>
+        </div>
+      </div>
+      <div class="collection-cards">
+        <div class="full-card">
+          <div class="upper-color-div">
+            <img class="elipse" src="assets/Shadow.png" />
+          </div>
+
+          <div class="card-text">
+            <p>Apple Watch Series-6 - Silver</p>
+            <p>Band</p>
+          </div>
+          <div class="btn-rating">
+            <button
+              style="
+                background-color: #ff5151;
+                border: none;
+                width: 60px;
+                color: white;
+                border-radius: 10px;
+              "
+            >
+              $450
+            </button>
+            <img src="assets/rating.png" width="120px" />
+          </div>
+        </div>
+        <div class="full-card">
+          <div class="upper-color-div">
+            <img
+              src="assets/Favorties Icon.png"
+              style="margin-left: 230px; margin-top: 20px"
+            />
+            <img
+              src="assets/frock.png"
+              style="margin-top: -60px; margin-left: 40px"
+            />
+
+            <img
+              class="elipse"
+              style="margin-top: -20px"
+              src="assets/Shadow.png"
+            />
+          </div>
+
+          <div class="card-text">
+            <p>Armani Frock Ladies - Imported</p>
+            <p>Frock blue</p>
+          </div>
+          <div class="btn-rating">
+            <button
+              style="
+                background-color: #ff5151;
+                border: none;
+                width: 60px;
+                color: white;
+                border-radius: 10px;
+              "
+            >
+              $250
+            </button>
+            <img src="assets/rating.png" width="120px" />
+          </div>
+        </div>
+        <div class="full-card">
+          <div class="upper-color-div">
+            <img src="assets/watch.png" />
+            <img
+              class="elipse"
+              style="margin-top: -50px"
+              src="assets/Shadow.png"
+            />
+          </div>
+
+          <div class="card-text">
+            <p>Nike Air Men's Hoodie - Imported</p>
+            <p>Hoodie Red</p>
+          </div>
+          <div class="btn-rating">
+            <button
+              style="
+                background-color: #ff5151;
+                border: none;
+                width: 60px;
+                color: white;
+                border-radius: 10px;
+              "
+            >
+              $150
+            </button>
+            <img src="assets/rating.png" width="120px" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- latest-collection-section -->
+    <div class="latest-collection">
+      <div class="header-latest-col">
+        <p>New Arrival</p>
+        <h1>Latest Collections</h1>
+      </div>
+      <div class="grid-container">
+        <!-- First column images (two rows) -->
+        <div class="grid-item-first-column">
+          <div class="image-container">
+            <img src="assets/Poster 1.png" alt="Image 1" />
+            <div class="image-text1">2021 Trends <br />Women's Smart Skirt</div>
+          </div>
+          <div class="image-container">
+            <img src="assets/Poster 2.png" alt="Image 2" />
+            <div class="image-text2">2021 Trends <br />Men's Fashion</div>
+          </div>
+        </div>
+        <!-- Second column image (one row) -->
+        <div class="grid-item-second-column">
+          <div class="image-container">
+            <img src="assets/Poster 3.png" alt="Image 3" />
+            <div class="image-text3">
+              2021 Trends <br />Women's Smart Skirt<br /><br />Discover More
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Category-Latest-Collection -->
+    <div class="category-section">
+      <div class="categories">
+        <!-- items -->
+        <div class="product">
+          <div class="upper-sec"></div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$150</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+        <!-- product2 -->
+        <div class="product prod2">
+          <div class="upper-sec2">
+            <img
+              style="position: absolute; left: 520px; top: 2070px; width: 40px"
+              src="assets/Favorties Icon.png"
+            />
+            <img src="assets/glass.png" />
+          </div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+            <button
+              style="
+                width: 80px;
+                height: 30px;
+                margin-left: 20px;
+                font-size: 12px;
+                color: white;
+                background-color: #ff5151;
+                border: none;
+                padding: 2px;
+                border-radius: 10px;
+              "
+            >
+              Add to cart
+            </button>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$80</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+        <!-- product3 -->
+        <div class="product">
+          <div class="upper-sec">
+            <img src="assets/shirt.png" />
+          </div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$150</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+        <!-- product4 -->
+        <div class="product">
+          <div class="upper-sec">
+            <img src="assets/watch.png" width="210px" />
+          </div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$150</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+        <!-- product5 -->
+        <div class="product">
+          <div class="upper-sec">
+            <img src="assets/microphone.png" />
+          </div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$150</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+        <!-- product6 -->
+        <div class="product">
+          <div class="upper-sec">
+            <img src="assets/bag.png" />
+          </div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$150</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+        <!-- product7 -->
+        <div class="product">
+          <div class="upper-sec">
+            <img src="assets/football.png" />
+          </div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$150</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+        <!-- product8 -->
+        <div class="product">
+          <div class="upper-sec">
+            <img src="assets/sandle.png" />
+          </div>
+          <div class="product-text">
+            <p>
+              Nike Air Men's Hoodie<br />
+              - ImportedHoodie Red
+            </p>
+          </div>
+          <div class="btn-rating">
+            <p style="color: grey">$150</p>
+            <img src="assets/rating.png" width="120px" height="20px;" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="footer-column">
+        <div class="col1 d-flex align-items-center">
+          <img src="assets/logo.png" />
+          <p
+            style="
+              color: #ff5151;
+              font-weight: 900;
+              margin-top: 20px;
+              margin-left: 10px;
+            "
+          >
+            Codevo
+          </p>
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet <br />
+          consectetur adipisicing elit.
+        </div>
+        <div class="row-2-col-3 d-flex">
+          <a href="#"
+            ><i class="fa-brands fa-facebook" style="color: white"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-twitter" style="color: white"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-instagram" style="color: white"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-linkedin-in" style="color: white"></i
+          ></a>
+        </div>
+        <div style="margin-top: 10px; color: #ff5151; font-weight: 600">
+          CopyRights 2021
+        </div>
+        <div style="margin-top: 10px; color: #ff5151; font-weight: 600">
+          @lamabdulqadeer01
+        </div>
+      </div>
+      <div class="footer-column">
+        <ul>
+          <li style="font-weight: 600">Product</li>
+          <li>Download</li>
+          <li>Pricing</li>
+          <li>Location</li>
+          <li>Servers</li>
+          <li>Countires</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <ul>
+          <li style="font-weight: 600">Category</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Best Seller</li>
+          <li>New Arrivals</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <ul>
+          <li style="font-weight: 600">My Account</li>
+          <li>My Account</li>
+          <li>Discount</li>
+          <li>Return</li>
+          <li>Order History</li>
+          <li>Order Tracking</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <ul>
+          <li style="font-weight: 600">Contact Us</li>
+          <li>
+            <a><i class="fa-solid fa-location-dot" style="color: white"></i></a
+            >123 Street Trafford,London,Uk
+          </li>
+          <li>
+            <a><i class="fa-regular fa-envelope" style="color: white"></i></a
+            >info@sitename.
+          </li>
+
+          <li>
+            <a><i class="fa-solid fa-phone" style="color: white"></i></a
+            >com<br />+456 789 001
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- bootstrap js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
